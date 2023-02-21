@@ -45,7 +45,7 @@ datos.forEach((dato) => {
     <td>${dato.nota1}</td>
     <td>${dato.nota2}</td>
     <td>${(dato.nota1 + dato.nota2) / 2}</td>
-    <td>${(dato.nota1 + dato.nota2) / 2 >= 6 ? 'Aprobado' : 'Reprobado'}</td>
+    <td>${(dato.nota1 + dato.nota2) / 2 >= 7 ? 'Aprobado' : 'Reprobado'}</td>
   `;
 });
 
